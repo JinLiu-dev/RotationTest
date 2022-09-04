@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 576418617}
   - component: {fileID: 576418619}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,8 +280,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576418616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: -0.96, z: 0}
-  m_LocalScale: {x: 2.8372118, y: 4.7867293, z: 1}
+  m_LocalPosition: {x: 0.946, y: -1.008, z: 0}
+  m_LocalScale: {x: 15.673547, y: 5.38487, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 576418616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e33d77839cfed144a04865bc38eb04b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1218bd292710eff4ba323ba203d2e308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.01
-  circleNumber: 8
+  slideSpeed: 1
+  lapNumber: 4
